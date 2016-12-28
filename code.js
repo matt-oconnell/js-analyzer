@@ -1,4 +1,4 @@
-const test = `let i = 0;
+const code = `let i = 0;
 function pow(base, power) {
   console.log('called', i++);
   let result = base;
@@ -15,4 +15,4 @@ function times2(val) {
 const answer = times2(pow(2, 3));
 console.log(answer);
 `;
-module.exports = test;
+module.exports = code;
